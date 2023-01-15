@@ -82,17 +82,15 @@ small {
     text-align: center;
 }
 
-.experience-text-title {}
-
 .experiences-text {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
 }
 
-.experience-image {
-    width: 800px;
-    height: 1059px;
+.experience-image img {
+    width: 600px;
+    height: 750px;
 }
 
 /* -------- My experiences------------ */
@@ -100,12 +98,27 @@ small {
 .experience-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: 20px 50px;
+    gap: 150px;
 }
 
 .experiences-text {
     color: #727272;
     font-weight: 400;
     font-size: 16px;
+}
+
+.experience-btn {
+    align-items: center;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.experience-btn button {
+    width: 220px;
+    height: 150px;
+    border: none;
+    background-color: #FF900E;
 }
 
 .some-fact-container {
