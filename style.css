@@ -13,6 +13,7 @@ body {
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 100px;
     padding-left: 25px;
 }
 
@@ -42,11 +43,30 @@ small {
     color: black;
 }
 
-#heading-title {
+.heading-title {
     display: flex;
     justify-content: center;
-    padding-top: 70px;
-    padding-bottom: 25px;
+}
+
+#heading-text {
+    align-items: center;
+    text-align: center;
+    color: #727272;
+    margin: 5px 150px;
+}
+
+#heading-btn {
+    text-align: center;
+}
+
+.some-fact-container {
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.some-fact-container small {
+    color: #727272;
+
 }
 
 .banner-img img {
@@ -63,6 +83,22 @@ small {
 .icon-logo {
     display: flex;
     justify-content: space-around;
+}
+
+.icon-container {
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    height: 140px;
+    width: 140px;
+
+}
+
+.icon-container img {
+    width: 20px;
+    height: 20px;
 }
 
 .logo {
